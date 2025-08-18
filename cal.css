@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, pink,plum);
+  padding: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 150px;
+  padding: 6px 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: purple;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 8px;
+  font-size: 18px;
+  border-radius: 25px; /* oval shape */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: plum;
+}
+
+p {
+  margin-top: 20px;
+  color: black;
+  font-weight: 600;
+}
+
